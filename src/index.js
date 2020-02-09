@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import RouterExample from "./router";
 
-ReactDOM.render(< />, document.getElementById('root'));
+ReactDOM.render(<RouterExample />, document.getElementById('root'));
 
