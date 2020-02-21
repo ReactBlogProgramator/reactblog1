@@ -1,0 +1,51 @@
+.router{
+    background-color: white;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 30px;
+    font-family: Georgia;
+    padding: 10px;
+    text-align: center;
+    
+
+}
+.clear{
+    clear: both;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    width: 1000px;
+   
+}
+li{
+    background-color: azure;
+    border-left: 1px dotted black;
+    border-right: 1px dotted black;
+    float: left;
+    margin: 8px;
+    padding: 5px;
+    list-style-type: none;
+    
+}
+li:hover{
+    background-color: rgb(155, 183, 245);
+    color: white;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    
+}
+a:hover{
+    color: black;
+    cursor: pointer;
+}
+.menu{
+    width: 1000px;
+}
