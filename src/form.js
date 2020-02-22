@@ -16,7 +16,7 @@ export default class Form extends React.Component {
         return (
             <div className="form-container">
                 <div className="form">
-                    <h1>Article addition form</h1>
+                    <div className="form-title"><h1>Article addition form</h1></div>
                     <form className="myForm" name="myForm" onSubmit={this.validateForm}>
                         <p>Enter article ID:</p>
                         <input type="text" name="articleID"/>
